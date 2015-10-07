@@ -8,8 +8,6 @@ import Data.Char (ord)
 import Data.List (concat, isInfixOf)
 import Numeric (showHex)
 
-
-reservedChars :: String
 reservedChars = ":/?#[]@!$&()'*+,;= "
 
 
