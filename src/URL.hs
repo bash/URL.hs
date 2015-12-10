@@ -2,7 +2,7 @@
 -- (c) 2015 Ruben Schmidmeister
 --
 
-module URL where
+module URL (encodeChar, encodeString) where
 
 import Data.Char (ord)
 import Data.List (concat, isInfixOf)
